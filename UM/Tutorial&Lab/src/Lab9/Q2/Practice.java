@@ -100,7 +100,7 @@ class Students extends Practice{
 }
 class Main {
     public static void main(String[] args) {
-        Students s1=new Students("Danny","M","2003-10-21","course.txt");
+        Students s1=new Students("Danny","M","2003-10-21", "Tutorial&Lab/course.txt");
         System.out.println(s1);
     }
 }

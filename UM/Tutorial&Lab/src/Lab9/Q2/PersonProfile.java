@@ -93,7 +93,7 @@ class Student extends PersonProfile{
 }
 class Tester{
     public static void main(String[] args) {
-        Students s1=new Students("Joe","M","1999-3-12","course.txt");
+        Students s1=new Students("Joe","M","1999-3-12", "Tutorial&Lab/course.txt");
         System.out.println(s1);
     }
 

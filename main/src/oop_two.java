@@ -12,11 +12,19 @@ public class oop_two {
     protected void eat(){
         System.out.println("My name is "+name+".I like to eat.");
     }
+
+    // use super to access constructor
+    oop_two(){
+        System.out.println("I am an animal");
+    }
 }
 
 class Dog extends oop_two{
     String type="dog";
     //subclass// child class
+    Dog(){
+        System.out.println("I am a dog!");
+    }
     public void run(){
         System.out.println("My name is "+name+".I like to run.");
     }
@@ -47,7 +55,7 @@ class Dog extends oop_two{
 
 }
 
-class Tester{
+class main{
     public static void main(String[] args) {
         oop_two obj1=new oop_two();
         Dog obj2=new Dog();
