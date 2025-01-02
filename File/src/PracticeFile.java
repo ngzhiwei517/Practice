@@ -32,7 +32,7 @@ public class PracticeFile {
             ObjectInputStream objectInputStream=new ObjectInputStream(fileInputStream);
             System.out.println("Integer data:"+objectInputStream.readInt());
             System.out.println("String data:"+objectInputStream.readObject());
-            System.out.println();
+            System.out.println("Hello World");
 
         } catch (Exception e) {
             System.out.println("An error occured!");
